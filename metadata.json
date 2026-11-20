@@ -1,0 +1,6 @@
+{
+  "name": "Program Tahfidz RA & MI Unggulan Al Ma'ruf",
+  "description": "Sistem Manajemen Materi, Catatan Harian, Evaluasi Mingguan & Bulanan, Rekapitulasi Laporan, dan Rapor Program Tahfidz RA & MI Unggulan Al Ma'ruf - Yayasan Miftahul Huda Al-Ma'ruf.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

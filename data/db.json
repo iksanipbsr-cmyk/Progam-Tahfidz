@@ -1,0 +1,1748 @@
+{
+  "admin": {
+    "loginId": "ADMIN-ALMARUF",
+    "name": "Admin Madrasah Al Ma’ruf",
+    "password": "almaruf2025"
+  },
+  "academicYears": [
+    {
+      "id": "ay-2025-2026",
+      "label": "2025/2026",
+      "activeSemester": 1,
+      "isActive": true
+    },
+    {
+      "id": "ay-2024-2025",
+      "label": "2024/2025",
+      "activeSemester": 2,
+      "isActive": false
+    }
+  ],
+  "teachers": [
+    {
+      "id": "tch-kepsek",
+      "loginId": "KEPSEK-01",
+      "name": "Ustadz H. Ahmad Fauzan, S.Pd.I",
+      "role": "KEPALA_PROGRAM",
+      "nipOrNuptk": "197904122005011003",
+      "assignedClasses": [
+        "RA A",
+        "RA B",
+        "Kelas 1",
+        "Kelas 2",
+        "Kelas 3",
+        "Kelas 4",
+        "Kelas 5",
+        "Kelas 6"
+      ],
+      "phone": "081386292899"
+    },
+    {
+      "id": "tch-raa",
+      "loginId": "GRU-RAA",
+      "name": "Ustadzah Siti Aminah, S.Pd",
+      "role": "GURU_PENDAMPING",
+      "nipOrNuptk": "20210701001",
+      "assignedClasses": [
+        "RA A"
+      ],
+      "phone": "085225110001"
+    },
+    {
+      "id": "tch-rab",
+      "loginId": "GRU-RAB",
+      "name": "Ustadzah Nur Hidayah, S.Pd.I",
+      "role": "GURU_PENDAMPING",
+      "nipOrNuptk": "20210701002",
+      "assignedClasses": [
+        "RA B"
+      ],
+      "phone": "085225110002"
+    },
+    {
+      "id": "tch-mi1",
+      "loginId": "GRU-MI1",
+      "name": "Ustadzah Dewi Rahmawati, S.Pd",
+      "role": "GURU_PENDAMPING",
+      "nipOrNuptk": "20210701003",
+      "assignedClasses": [
+        "Kelas 1"
+      ],
+      "phone": "085225110003"
+    },
+    {
+      "id": "tch-mi2",
+      "loginId": "GRU-MI2",
+      "name": "Ustadz Muhammad Yusuf, S.Pd.I",
+      "role": "GURU_PENDAMPING",
+      "nipOrNuptk": "20210701004",
+      "assignedClasses": [
+        "Kelas 2"
+      ],
+      "phone": "085225110004"
+    },
+    {
+      "id": "tch-mi3",
+      "loginId": "GRU-MI3",
+      "name": "Ustadzah Fatimah Az-Zahra, S.Ag",
+      "role": "GURU_PENDAMPING",
+      "nipOrNuptk": "20210701005",
+      "assignedClasses": [
+        "Kelas 3"
+      ],
+      "phone": "085225110005"
+    },
+    {
+      "id": "tch-mi4",
+      "loginId": "GRU-MI4",
+      "name": "Ustadz Lukman Hakim, S.Pd.I",
+      "role": "GURU_PENDAMPING",
+      "nipOrNuptk": "20210701006",
+      "assignedClasses": [
+        "Kelas 4"
+      ],
+      "phone": "085225110006"
+    },
+    {
+      "id": "tch-mi5",
+      "loginId": "GRU-MI5",
+      "name": "Ustadzah Khadijah Mubarokah, S.Pd",
+      "role": "GURU_PENDAMPING",
+      "nipOrNuptk": "20210701007",
+      "assignedClasses": [
+        "Kelas 5"
+      ],
+      "phone": "085225110007"
+    },
+    {
+      "id": "tch-mi6",
+      "loginId": "GRU-MI6",
+      "name": "Ustadz Abdurrahman Wahid, M.Pd.I",
+      "role": "GURU_PENDAMPING",
+      "nipOrNuptk": "20210701008",
+      "assignedClasses": [
+        "Kelas 6"
+      ],
+      "phone": "085225110008"
+    }
+  ],
+  "students": [
+    {
+      "id": "std-raa-1",
+      "studentLoginId": "MRD-RAA-01",
+      "parentLoginId": "ORT-RAA-01",
+      "nis": "RA250101",
+      "name": "Aisyah Putri Azzahra",
+      "parentName": "Bpk. Hendra Kurniawan",
+      "institution": "RA",
+      "classLevel": "RA A",
+      "rombel": "Unggulan",
+      "academicYearId": "ay-2025-2026"
+    },
+    {
+      "id": "std-raa-2",
+      "studentLoginId": "MRD-RAA-02",
+      "parentLoginId": "ORT-RAA-02",
+      "nis": "RA250102",
+      "name": "Muhammad Zayn Al-Fatih",
+      "parentName": "Ibu Sri Wahyuni",
+      "institution": "RA",
+      "classLevel": "RA A",
+      "rombel": "Unggulan",
+      "academicYearId": "ay-2025-2026"
+    },
+    {
+      "id": "std-rab-1",
+      "studentLoginId": "MRD-RAB-01",
+      "parentLoginId": "ORT-RAB-01",
+      "nis": "RA240201",
+      "name": "Nayla Khairunnisa",
+      "parentName": "Bpk. Agus Santoso",
+      "institution": "RA",
+      "classLevel": "RA B",
+      "rombel": "Unggulan",
+      "academicYearId": "ay-2025-2026"
+    },
+    {
+      "id": "std-rab-2",
+      "studentLoginId": "MRD-RAB-02",
+      "parentLoginId": "ORT-RAB-02",
+      "nis": "RA240202",
+      "name": "Rayyan Malik Ibrahim",
+      "parentName": "Ibu Nurul Qomariyah",
+      "institution": "RA",
+      "classLevel": "RA B",
+      "rombel": "Unggulan",
+      "academicYearId": "ay-2025-2026"
+    },
+    {
+      "id": "std-mi1-1",
+      "studentLoginId": "MRD-MI1-01",
+      "parentLoginId": "ORT-MI1-01",
+      "nis": "MI250101",
+      "name": "Hafizah Salma Ramadhani",
+      "parentName": "Bpk. Sutrisno",
+      "institution": "MI",
+      "classLevel": "Kelas 1",
+      "rombel": "1A",
+      "academicYearId": "ay-2025-2026"
+    },
+    {
+      "id": "std-mi1-2",
+      "studentLoginId": "MRD-MI1-02",
+      "parentLoginId": "ORT-MI1-02",
+      "nis": "MI250102",
+      "name": "Arkananta Bilal Pratama",
+      "parentName": "Ibu Ratna Sari",
+      "institution": "MI",
+      "classLevel": "Kelas 1",
+      "rombel": "1A",
+      "academicYearId": "ay-2025-2026"
+    },
+    {
+      "id": "std-mi2-1",
+      "studentLoginId": "MRD-MI2-01",
+      "parentLoginId": "ORT-MI2-01",
+      "nis": "MI240201",
+      "name": "Zahra Humaira Salsabila",
+      "parentName": "Bpk. Eko Prasetyo",
+      "institution": "MI",
+      "classLevel": "Kelas 2",
+      "rombel": "2A",
+      "academicYearId": "ay-2025-2026"
+    },
+    {
+      "id": "std-mi2-2",
+      "studentLoginId": "MRD-MI2-02",
+      "parentLoginId": "ORT-MI2-02",
+      "nis": "MI240202",
+      "name": "Fathan Al-Ghazali",
+      "parentName": "Ibu Umi Kultsum",
+      "institution": "MI",
+      "classLevel": "Kelas 2",
+      "rombel": "2A",
+      "academicYearId": "ay-2025-2026"
+    },
+    {
+      "id": "std-mi3-1",
+      "studentLoginId": "MRD-MI3-01",
+      "parentLoginId": "ORT-MI3-01",
+      "nis": "MI230301",
+      "name": "Keysha Nadia Al-Ma’ruf",
+      "parentName": "Bpk. Slamet Riyadi",
+      "institution": "MI",
+      "classLevel": "Kelas 3",
+      "rombel": "3A",
+      "academicYearId": "ay-2025-2026"
+    },
+    {
+      "id": "std-mi3-2",
+      "studentLoginId": "MRD-MI3-02",
+      "parentLoginId": "ORT-MI3-02",
+      "nis": "MI230302",
+      "name": "Dzaky Maulana Akbar",
+      "parentName": "Ibu Anisa Fitri",
+      "institution": "MI",
+      "classLevel": "Kelas 3",
+      "rombel": "3A",
+      "academicYearId": "ay-2025-2026"
+    },
+    {
+      "id": "std-mi4-1",
+      "studentLoginId": "MRD-MI4-01",
+      "parentLoginId": "ORT-MI4-01",
+      "nis": "MI220401",
+      "name": "Syifa Aulia Putri",
+      "parentName": "Bpk. Muhammad Sholeh",
+      "institution": "MI",
+      "classLevel": "Kelas 4",
+      "rombel": "4A",
+      "academicYearId": "ay-2025-2026"
+    },
+    {
+      "id": "std-mi4-2",
+      "studentLoginId": "MRD-MI4-02",
+      "parentLoginId": "ORT-MI4-02",
+      "nis": "MI220402",
+      "name": "Raffa Naufal Ramadhan",
+      "parentName": "Ibu Mahmudah",
+      "institution": "MI",
+      "classLevel": "Kelas 4",
+      "rombel": "4A",
+      "academicYearId": "ay-2025-2026"
+    },
+    {
+      "id": "std-mi5-1",
+      "studentLoginId": "MRD-MI5-01",
+      "parentLoginId": "ORT-MI5-01",
+      "nis": "MI210501",
+      "name": "Nafisa Azkia Husna",
+      "parentName": "Bpk. Zainal Abidin",
+      "institution": "MI",
+      "classLevel": "Kelas 5",
+      "rombel": "5A",
+      "academicYearId": "ay-2025-2026"
+    },
+    {
+      "id": "std-mi5-2",
+      "studentLoginId": "MRD-MI5-02",
+      "parentLoginId": "ORT-MI5-02",
+      "nis": "MI210502",
+      "name": "Faris Al-Faruq",
+      "parentName": "Ibu Siti Marfuah",
+      "institution": "MI",
+      "classLevel": "Kelas 5",
+      "rombel": "5A",
+      "academicYearId": "ay-2025-2026"
+    },
+    {
+      "id": "std-mi6-1",
+      "studentLoginId": "MRD-MI6-01",
+      "parentLoginId": "ORT-MI6-01",
+      "nis": "MI200601",
+      "name": "Alifah Zahratul Jannah",
+      "parentName": "Bpk. H. Ridwan Kamiluddin",
+      "institution": "MI",
+      "classLevel": "Kelas 6",
+      "rombel": "6A",
+      "academicYearId": "ay-2025-2026"
+    },
+    {
+      "id": "std-mi6-2",
+      "studentLoginId": "MRD-MI6-02",
+      "parentLoginId": "ORT-MI6-02",
+      "nis": "MI200602",
+      "name": "Luqmanul Hakim Putra",
+      "parentName": "Ibu Halimah Sa’diyah",
+      "institution": "MI",
+      "classLevel": "Kelas 6",
+      "rombel": "6A",
+      "academicYearId": "ay-2025-2026"
+    }
+  ],
+  "materials": [
+    {
+      "id": "mat-juz30-78",
+      "category": "JUZ_30",
+      "title": "QS. An-Naba'",
+      "subtitle": "Surah ke-78 · 40 Ayat · سورة النبإ",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ عَمَّ يَتَسَآءَلُوْنَ ۝ عَنِ النَّبَاِ الْعَظِيْمِ",
+      "transliteration": "‘Amma yatasā'alūn (1) ‘Anin-naba'il-‘aẓīm (2)",
+      "translationOrGuide": "Target MI Kelas 5–6 (dibagi 4 pekan: Ayat 1–10, 11–20, 21–30, 31–40). Perhatikan hukum ghunnah pada mim musyaddadah.",
+      "targetClasses": [
+        "Kelas 5",
+        "Kelas 6"
+      ],
+      "targetSemester": 1,
+      "ayahCount": 40,
+      "orderIndex": 1,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/78.mp3"
+    },
+    {
+      "id": "mat-juz30-79",
+      "category": "JUZ_30",
+      "title": "QS. An-Nazi'at",
+      "subtitle": "Surah ke-79 · 46 Ayat · سورة النازعات",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ وَالنّٰزِعٰتِ غَرْقًا ۝ وَّالنّٰشِطٰتِ نَشْطًا",
+      "transliteration": "Wan-nāzi‘āti garqā (1) Wan-nāsyiṭāti nasyṭā (2)",
+      "translationOrGuide": "Target MI Kelas 5–6 (dibagi 4 pekan: Ayat 1–14, 15–26, 27–36, 37–46). Perhatikan mad thabi’i dan waqaf mad ‘iwadh.",
+      "targetClasses": [
+        "Kelas 5",
+        "Kelas 6"
+      ],
+      "targetSemester": 2,
+      "ayahCount": 46,
+      "orderIndex": 2,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/79.mp3"
+    },
+    {
+      "id": "mat-juz30-80",
+      "category": "JUZ_30",
+      "title": "QS. 'Abasa",
+      "subtitle": "Surah ke-80 · 42 Ayat · سورة عبس",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ عَبَسَ وَتَوَلّٰى ۝ اَنْ جَآءَهُ الْاَعْمٰى",
+      "transliteration": "‘Abasa wa tawallā (1) An jā'ahul-a‘mā (2)",
+      "translationOrGuide": "Target MI Kelas 5–6 (dibagi 3–4 pekan). Latih bacaan mad wajib muttashil pada ayat ke-2.",
+      "targetClasses": [
+        "Kelas 5",
+        "Kelas 6"
+      ],
+      "targetSemester": 1,
+      "ayahCount": 42,
+      "orderIndex": 3,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/80.mp3"
+    },
+    {
+      "id": "mat-juz30-81",
+      "category": "JUZ_30",
+      "title": "QS. At-Takwir",
+      "subtitle": "Surah ke-81 · 29 Ayat · سورة التكوير",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ اِذَا الشَّمْسُ كُوِّرَتْ ۝ وَاِذَا النُّجُوْمُ انْكَدَرَتْ",
+      "transliteration": "Iżasy-syamsu kuwwirat (1) Wa iżan-nujūmunkadarat (2)",
+      "translationOrGuide": "Target MI Kelas 4–5 (dibagi 3 pekan: Ayat 1–10, 11–20, 21–29). Perhatikan makhraj huruf ta’ sukun.",
+      "targetClasses": [
+        "Kelas 4",
+        "Kelas 5"
+      ],
+      "targetSemester": 2,
+      "ayahCount": 29,
+      "orderIndex": 4,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/81.mp3"
+    },
+    {
+      "id": "mat-juz30-82",
+      "category": "JUZ_30",
+      "title": "QS. Al-Infithar",
+      "subtitle": "Surah ke-82 · 19 Ayat · سورة الانفطار",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ اِذَا السَّمَآءُ انْفَطَرَتْ ۝ وَاِذَا الْكَوَاكِبُ انْتَثَرَتْ",
+      "transliteration": "Iżas-samā'unfaṭarat (1) Wa iżal-kawākibuntaṡarat (2)",
+      "translationOrGuide": "Target MI Kelas 4 (dibagi 2 pekan: Ayat 1–10, 11–19). Perhatikan ikhfa’ haqiqi.",
+      "targetClasses": [
+        "Kelas 4",
+        "Kelas 5"
+      ],
+      "targetSemester": 1,
+      "ayahCount": 19,
+      "orderIndex": 5,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/82.mp3"
+    },
+    {
+      "id": "mat-juz30-83",
+      "category": "JUZ_30",
+      "title": "QS. Al-Muthaffifin",
+      "subtitle": "Surah ke-83 · 36 Ayat · سورة المطففين",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ وَيْلٌ لِّلْمُطَفِّفِيْنَ ۝ الَّذِيْنَ اِذَا اكْتَالُوْا عَلَى النَّاسِ يَسْتَوْفُوْنَ",
+      "transliteration": "Wailul lil-muṭaffifīn (1) Allażīna iżaktālū ‘alan-nāsi yastaufūn (2)",
+      "translationOrGuide": "Target MI Kelas 4–5 (dibagi 3 pekan). Latih idgham bilaghunnah pada ayat pertama.",
+      "targetClasses": [
+        "Kelas 4",
+        "Kelas 5"
+      ],
+      "targetSemester": 2,
+      "ayahCount": 36,
+      "orderIndex": 6,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/83.mp3"
+    },
+    {
+      "id": "mat-juz30-84",
+      "category": "JUZ_30",
+      "title": "QS. Al-Insyiqaq",
+      "subtitle": "Surah ke-84 · 25 Ayat · سورة الانشقاق",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ اِذَا السَّمَآءُ انْشَقَّتْ ۝ وَاَذِنَتْ لِرَبِّهَا وَحُقَّتْ",
+      "transliteration": "Iżas-samā'unsyaqqat (1) Wa ażinat lirabbihā wa ḥuqqat (2)",
+      "translationOrGuide": "Target MI Kelas 4 (dibagi 2–3 pekan). Jelaskan posisi ayat sajdah pada ayat 21.",
+      "targetClasses": [
+        "Kelas 4"
+      ],
+      "targetSemester": 1,
+      "ayahCount": 25,
+      "orderIndex": 7,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/84.mp3"
+    },
+    {
+      "id": "mat-juz30-85",
+      "category": "JUZ_30",
+      "title": "QS. Al-Buruj",
+      "subtitle": "Surah ke-85 · 22 Ayat · سورة البروج",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ وَالسَّمَآءِ ذَاتِ الْبُرُوْجِ ۝ وَالْيَوْمِ الْمَوْعُوْدِ",
+      "transliteration": "Was-samā'i żātil-burūj (1) Wal-yaumil-mau‘ūd (2)",
+      "translationOrGuide": "Target MI Kelas 3–4 (dibagi 2 pekan). Latih qalqalah kubra di akhir setiap ayat.",
+      "targetClasses": [
+        "Kelas 3",
+        "Kelas 4"
+      ],
+      "targetSemester": 2,
+      "ayahCount": 22,
+      "orderIndex": 8,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/85.mp3"
+    },
+    {
+      "id": "mat-juz30-86",
+      "category": "JUZ_30",
+      "title": "QS. Ath-Thariq",
+      "subtitle": "Surah ke-86 · 17 Ayat · سورة الطارق",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ وَالسَّمَآءِ وَالطَّارِقِ ۝ وَمَآ اَدْرٰىكَ مَا الطَّارِقُ",
+      "transliteration": "Was-samā'i waṭ-ṭāriq (1) Wa mā adrāka maṭ-ṭāriq (2)",
+      "translationOrGuide": "Target MI Kelas 3–4 (dibagi 2 pekan). Latih huruf tha’ tebal dan qalqalah sughra.",
+      "targetClasses": [
+        "Kelas 3",
+        "Kelas 4"
+      ],
+      "targetSemester": 1,
+      "ayahCount": 17,
+      "orderIndex": 9,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/86.mp3"
+    },
+    {
+      "id": "mat-juz30-87",
+      "category": "JUZ_30",
+      "title": "QS. Al-A'la",
+      "subtitle": "Surah ke-87 · 19 Ayat · سورة الأعلى",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ سَبِّحِ اسْمَ رَبِّكَ الْاَعْلَى ۝ الَّذِيْ خَلَقَ فَسَوّٰى",
+      "transliteration": "Sabbiḥisma rabbikal-a‘lā (1) Allażī khalaqa fasawwā (2)",
+      "translationOrGuide": "Target MI Kelas 3 (dibagi 2 pekan). Sering dibaca pada sholat Jum’at dan sholat Id.",
+      "targetClasses": [
+        "Kelas 3",
+        "Kelas 4"
+      ],
+      "targetSemester": 2,
+      "ayahCount": 19,
+      "orderIndex": 10,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/87.mp3"
+    },
+    {
+      "id": "mat-juz30-88",
+      "category": "JUZ_30",
+      "title": "QS. Al-Ghasyiyah",
+      "subtitle": "Surah ke-88 · 26 Ayat · سورة الغاشية",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ هَلْ اَتٰىكَ حَدِيْثُ الْغَاشِيَةِ",
+      "transliteration": "Hal atāka ḥadīṡul-gāsyiyah (1)",
+      "translationOrGuide": "Target MI Kelas 3–4 (dibagi 2–3 pekan). Perhatikan bacaan ha’ ta’nits saat waqaf.",
+      "targetClasses": [
+        "Kelas 3",
+        "Kelas 4"
+      ],
+      "targetSemester": 1,
+      "ayahCount": 26,
+      "orderIndex": 11,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/88.mp3"
+    },
+    {
+      "id": "mat-juz30-89",
+      "category": "JUZ_30",
+      "title": "QS. Al-Fajr",
+      "subtitle": "Surah ke-89 · 30 Ayat · سورة الفجر",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ وَالْفَجْرِ ۝ وَلَيَالٍ عَشْرٍ",
+      "transliteration": "Wal-fajr (1) Wa layālin ‘asyr (2)",
+      "translationOrGuide": "Target MI Kelas 3–4 (dibagi 3 pekan). Perhatikan waqaf qalqalah pada kata wal-fajr.",
+      "targetClasses": [
+        "Kelas 3",
+        "Kelas 4"
+      ],
+      "targetSemester": 2,
+      "ayahCount": 30,
+      "orderIndex": 12,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/89.mp3"
+    },
+    {
+      "id": "mat-juz30-90",
+      "category": "JUZ_30",
+      "title": "QS. Al-Balad",
+      "subtitle": "Surah ke-90 · 20 Ayat · سورة البلد",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ لَآ اُقْسِمُ بِهٰذَا الْبَلَدِ ۝ وَاَنْتَ حِلٌّۢ بِهٰذَا الْبَلَدِ",
+      "transliteration": "Lā uqsimu bihāżal-balad (1) Wa anta ḥillum bihāżal-balad (2)",
+      "translationOrGuide": "Target MI Kelas 3 (dibagi 2 pekan). Perhatikan hukum iqlab pada ayat ke-2.",
+      "targetClasses": [
+        "Kelas 3"
+      ],
+      "targetSemester": 1,
+      "ayahCount": 20,
+      "orderIndex": 13,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/90.mp3"
+    },
+    {
+      "id": "mat-juz30-91",
+      "category": "JUZ_30",
+      "title": "QS. Asy-Syams",
+      "subtitle": "Surah ke-91 · 15 Ayat · سورة الشمس",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ وَالشَّمْسِ وَضُحٰىهَا ۝ وَالْقَمَرِ اِذَا تَلٰىهَا",
+      "transliteration": "Wasy-syamsi wa ḍuḥāhā (1) Wal-qamari iżā talāhā (2)",
+      "translationOrGuide": "Target MI Kelas 2–3 (dibagi 2 pekan). Perhatikan konsistensi panjang mad di akhir ayat.",
+      "targetClasses": [
+        "Kelas 2",
+        "Kelas 3"
+      ],
+      "targetSemester": 2,
+      "ayahCount": 15,
+      "orderIndex": 14,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/91.mp3"
+    },
+    {
+      "id": "mat-juz30-92",
+      "category": "JUZ_30",
+      "title": "QS. Al-Lail",
+      "subtitle": "Surah ke-92 · 21 Ayat · سورة الليل",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ وَالَّيْلِ اِذَا يَغْشٰى ۝ وَالنَّهَارِ اِذَا تَجَلّٰى",
+      "transliteration": "Wal-laili iżā yagsyā (1) Wan-nahāri iżā tajallā (2)",
+      "translationOrGuide": "Target MI Kelas 2–3 (dibagi 2 pekan). Perhatikan bacaan ghain sukun.",
+      "targetClasses": [
+        "Kelas 2",
+        "Kelas 3"
+      ],
+      "targetSemester": 1,
+      "ayahCount": 21,
+      "orderIndex": 15,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/92.mp3"
+    },
+    {
+      "id": "mat-juz30-93",
+      "category": "JUZ_30",
+      "title": "QS. Adh-Dhuha",
+      "subtitle": "Surah ke-93 · 11 Ayat · سورة الضحى",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ وَالضُّحٰى ۝ وَالَّيْلِ اِذَا سَجٰى",
+      "transliteration": "Waḍ-ḍuḥā (1) Wal-laili iżā sajā (2)",
+      "translationOrGuide": "Target MI Kelas 2 (1–2 pekan). Sering dibaca saat pembiasaan sholat Dhuha berjamaah.",
+      "targetClasses": [
+        "Kelas 2",
+        "Kelas 3"
+      ],
+      "targetSemester": 2,
+      "ayahCount": 11,
+      "orderIndex": 16,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/93.mp3"
+    },
+    {
+      "id": "mat-juz30-94",
+      "category": "JUZ_30",
+      "title": "QS. Al-Insyirah",
+      "subtitle": "Surah ke-94 · 8 Ayat · سورة الشرح",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ اَلَمْ نَشْرَحْ لَكَ صَدْرَكَ",
+      "transliteration": "Alam nasyraḥ laka ṣadrak (1)",
+      "translationOrGuide": "Target MI Kelas 2 (1 pekan). Latih qalqalah sughra pada kata ṣadrak dan wizrak.",
+      "targetClasses": [
+        "Kelas 2"
+      ],
+      "targetSemester": 1,
+      "ayahCount": 8,
+      "orderIndex": 17,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/94.mp3"
+    },
+    {
+      "id": "mat-juz30-95",
+      "category": "JUZ_30",
+      "title": "QS. At-Tin",
+      "subtitle": "Surah ke-95 · 8 Ayat · سورة التين",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ وَالتِّيْنِ وَالزَّيْتُوْنِ ۝ وَطُوْرِ سِيْنِيْنَ",
+      "transliteration": "Wat-tīni waz-zaitūn (1) Wa ṭūri sīnīn (2)",
+      "translationOrGuide": "Target MI Kelas 2 (1 pekan). Bacaan pendek berirama, cocok untuk penguatan tajwid awal.",
+      "targetClasses": [
+        "Kelas 2"
+      ],
+      "targetSemester": 2,
+      "ayahCount": 8,
+      "orderIndex": 18,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/95.mp3"
+    },
+    {
+      "id": "mat-juz30-96",
+      "category": "JUZ_30",
+      "title": "QS. Al-'Alaq",
+      "subtitle": "Surah ke-96 · 19 Ayat · سورة العلق",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ اِقْرَأْ بِاسْمِ رَبِّكَ الَّذِيْ خَلَقَ",
+      "transliteration": "Iqra' bismi rabbikallażī khalaq (1)",
+      "translationOrGuide": "Target MI Kelas 2 (2 pekan). Perhatikan qalqalah pada kata Iqra’ dan khalaq.",
+      "targetClasses": [
+        "Kelas 2"
+      ],
+      "targetSemester": 1,
+      "ayahCount": 19,
+      "orderIndex": 19,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/96.mp3"
+    },
+    {
+      "id": "mat-juz30-97",
+      "category": "JUZ_30",
+      "title": "QS. Al-Qadr",
+      "subtitle": "Surah ke-97 · 5 Ayat · سورة القدر",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ اِنَّآ اَنْزَلْنٰهُ فِيْ لَيْلَةِ الْقَدْرِ",
+      "transliteration": "Innā anzalnāhu fī lailatil-qadr (1)",
+      "translationOrGuide": "Target MI Kelas 1–2 (1 pekan). Perhatikan ghunnah dan mad jaiz munfashil.",
+      "targetClasses": [
+        "Kelas 1",
+        "Kelas 2"
+      ],
+      "targetSemester": 2,
+      "ayahCount": 5,
+      "orderIndex": 20,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/97.mp3"
+    },
+    {
+      "id": "mat-juz30-98",
+      "category": "JUZ_30",
+      "title": "QS. Al-Bayyinah",
+      "subtitle": "Surah ke-98 · 8 Ayat · سورة البينة",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ لَمْ يَكُنِ الَّذِيْنَ كَفَرُوْا مِنْ اَهْلِ الْكِتٰبِ",
+      "transliteration": "Lam yakunillażīna kafarū min ahlil-kitāb (1)",
+      "translationOrGuide": "Target MI Kelas 2–3 (2 pekan). Ayat panjang, bimbing per penggalan waqaf.",
+      "targetClasses": [
+        "Kelas 2",
+        "Kelas 3"
+      ],
+      "targetSemester": 1,
+      "ayahCount": 8,
+      "orderIndex": 21,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/98.mp3"
+    },
+    {
+      "id": "mat-juz30-99",
+      "category": "JUZ_30",
+      "title": "QS. Az-Zalzalah",
+      "subtitle": "Surah ke-99 · 8 Ayat · سورة الزلزلة",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ اِذَا زُلْزِلَتِ الْاَرْضُ زِلْزَالَهَا",
+      "transliteration": "Iżā zulzilatil-arḍu zilzālahā (1)",
+      "translationOrGuide": "Target MI Kelas 1–2 (1 pekan). Latih perbedaan huruf zay dan dzal.",
+      "targetClasses": [
+        "Kelas 1",
+        "Kelas 2"
+      ],
+      "targetSemester": 2,
+      "ayahCount": 8,
+      "orderIndex": 22,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/99.mp3"
+    },
+    {
+      "id": "mat-juz30-100",
+      "category": "JUZ_30",
+      "title": "QS. Al-'Adiyat",
+      "subtitle": "Surah ke-100 · 11 Ayat · سورة العاديات",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ وَالْعٰدِيٰتِ ضَبْحًا ۝ فَالْمُوْرِيٰتِ قَدْحًا",
+      "transliteration": "Wal-‘ādiyāti ḍabḥā (1) Fal-mūriyāti qadḥā (2)",
+      "translationOrGuide": "Target MI Kelas 1–2 (1–2 pekan). Latih huruf ha’ kecil (ḥa) di akhir ayat.",
+      "targetClasses": [
+        "Kelas 1",
+        "Kelas 2"
+      ],
+      "targetSemester": 1,
+      "ayahCount": 11,
+      "orderIndex": 23,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/100.mp3"
+    },
+    {
+      "id": "mat-juz30-101",
+      "category": "JUZ_30",
+      "title": "QS. Al-Qari'ah",
+      "subtitle": "Surah ke-101 · 11 Ayat · سورة القارعة",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ اَلْقَارِعَةُ ۝ مَا الْقَارِعَةُ",
+      "transliteration": "Al-qāri‘ah (1) Mal-qāri‘ah (2)",
+      "translationOrGuide": "Target MI Kelas 1 (1–2 pekan). Latih makhraj ‘ain dan qaf.",
+      "targetClasses": [
+        "Kelas 1"
+      ],
+      "targetSemester": 2,
+      "ayahCount": 11,
+      "orderIndex": 24,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/101.mp3"
+    },
+    {
+      "id": "mat-juz30-102",
+      "category": "JUZ_30",
+      "title": "QS. At-Takatsur",
+      "subtitle": "Surah ke-102 · 8 Ayat · سورة التكاثر",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ اَلْهٰىكُمُ التَّكَاثُرُ ۝ حَتّٰى زُرْتُمُ الْمَقَابِرَ",
+      "transliteration": "Alhākumut-takāṡur (1) Ḥattā zurtumul-maqābir (2)",
+      "translationOrGuide": "Target RA B & MI Kelas 1 (1 pekan). Latih huruf tsa’ (ṡ) yang lembut.",
+      "targetClasses": [
+        "RA B",
+        "Kelas 1"
+      ],
+      "targetSemester": 1,
+      "ayahCount": 8,
+      "orderIndex": 25,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/102.mp3"
+    },
+    {
+      "id": "mat-juz30-103",
+      "category": "JUZ_30",
+      "title": "QS. Al-'Ashr",
+      "subtitle": "Surah ke-103 · 3 Ayat · سورة العصر",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ وَالْعَصْرِ ۝ اِنَّ الْاِنْسَانَ لَفِيْ خُسْرٍ",
+      "transliteration": "Wal-‘aṣr (1) Innal-insāna lafī khusr (2)",
+      "translationOrGuide": "Target RA A, RA B & Murojaah MI Kelas 1–6. Wajib hafal sejak RA A Semester 1.",
+      "targetClasses": [
+        "RA A",
+        "RA B",
+        "Kelas 1"
+      ],
+      "targetSemester": "BOTH",
+      "ayahCount": 3,
+      "orderIndex": 26,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/103.mp3"
+    },
+    {
+      "id": "mat-juz30-104",
+      "category": "JUZ_30",
+      "title": "QS. Al-Humazah",
+      "subtitle": "Surah ke-104 · 9 Ayat · سورة الهمزة",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ",
+      "transliteration": "Wailul likulli humazatil lumazah (1)",
+      "translationOrGuide": "Target RA B & MI Kelas 1. Perhatikan bacaan idgham bilaghunnah.",
+      "targetClasses": [
+        "RA B",
+        "Kelas 1"
+      ],
+      "targetSemester": 2,
+      "ayahCount": 9,
+      "orderIndex": 27,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/104.mp3"
+    },
+    {
+      "id": "mat-juz30-105",
+      "category": "JUZ_30",
+      "title": "QS. Al-Fil",
+      "subtitle": "Surah ke-105 · 5 Ayat · سورة الفيل",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ اَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِاَصْحٰبِ الْفِيْلِ",
+      "transliteration": "Alam tara kaifa fa‘ala rabbuka bi-aṣḥābil-fīl (1)",
+      "translationOrGuide": "Target RA B & MI Kelas 1. Ceritakan kisah pasukan gajah agar murid mudah menghafal.",
+      "targetClasses": [
+        "RA B",
+        "Kelas 1"
+      ],
+      "targetSemester": 1,
+      "ayahCount": 5,
+      "orderIndex": 28,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/105.mp3"
+    },
+    {
+      "id": "mat-juz30-106",
+      "category": "JUZ_30",
+      "title": "QS. Quraisy",
+      "subtitle": "Surah ke-106 · 4 Ayat · سورة قريش",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ لِاِيْلٰفِ قُرَيْشٍ ۝ اِيْلٰفِهِمْ رِحْلَةَ الشِّتَآءِ وَالصَّيْفِ",
+      "transliteration": "Li-īlāfi quraisyn (1) Īlāfihim riḥlatasy-syitā’i waṣ-ṣaif (2)",
+      "translationOrGuide": "Target RA B & MI Kelas 1. Perhatikan mad lin saat waqaf di akhir ayat.",
+      "targetClasses": [
+        "RA B",
+        "Kelas 1"
+      ],
+      "targetSemester": 2,
+      "ayahCount": 4,
+      "orderIndex": 29,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/106.mp3"
+    },
+    {
+      "id": "mat-juz30-107",
+      "category": "JUZ_30",
+      "title": "QS. Al-Ma'un",
+      "subtitle": "Surah ke-107 · 7 Ayat · سورة الماعون",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ اَرَءَيْتَ الَّذِيْ يُكَذِّبُ بِالدِّيْنِ",
+      "transliteration": "Ara-aitallażī yukażżibu bid-dīn (1)",
+      "translationOrGuide": "Target RA B & MI Kelas 1. Ajarkan nilai menyayangi anak yatim dan fakir miskin.",
+      "targetClasses": [
+        "RA B",
+        "Kelas 1"
+      ],
+      "targetSemester": 1,
+      "ayahCount": 7,
+      "orderIndex": 30,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/107.mp3"
+    },
+    {
+      "id": "mat-juz30-108",
+      "category": "JUZ_30",
+      "title": "QS. Al-Kautsar",
+      "subtitle": "Surah ke-108 · 3 Ayat · سورة الكوثر",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ اِنَّآ اَعْطَيْنٰكَ الْكَوْثَرَ ۝ فَصَلِّ لِرَبِّكَ وَانْحَرْ",
+      "transliteration": "Innā a‘ṭainākal-kauṡar (1) Faṣalli lirabbika wanḥar (2)",
+      "translationOrGuide": "Target RA A & RA B. Surah pendek utama untuk pengenalan hafalan RA A.",
+      "targetClasses": [
+        "RA A",
+        "RA B"
+      ],
+      "targetSemester": "BOTH",
+      "ayahCount": 3,
+      "orderIndex": 31,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/108.mp3"
+    },
+    {
+      "id": "mat-juz30-109",
+      "category": "JUZ_30",
+      "title": "QS. Al-Kafirun",
+      "subtitle": "Surah ke-109 · 6 Ayat · سورة الكافرون",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ قُلْ يٰٓاَيُّهَا الْكٰفِرُوْنَ ۝ لَآ اَعْبُدُ مَا تَعْبُدُوْنَ",
+      "transliteration": "Qul yā ayyuhal-kāfirūn (1) Lā a‘budu mā ta‘budūn (2)",
+      "translationOrGuide": "Target RA B & MI Kelas 1. Latih pengulangan ayat ke-3 dan ke-5 agar tidak tertukar.",
+      "targetClasses": [
+        "RA B",
+        "Kelas 1"
+      ],
+      "targetSemester": 2,
+      "ayahCount": 6,
+      "orderIndex": 32,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/109.mp3"
+    },
+    {
+      "id": "mat-juz30-110",
+      "category": "JUZ_30",
+      "title": "QS. An-Nashr",
+      "subtitle": "Surah ke-110 · 3 Ayat · سورة النصر",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ اِذَا جَآءَ نَصْرُ اللّٰهِ وَالْفَتْحُ",
+      "transliteration": "Iżā jā’a naṣrullāhi wal-fatḥ (1)",
+      "translationOrGuide": "Target RA A & RA B. Perhatikan waqaf huruf ha’ sukun pada kata wal-fatḥ.",
+      "targetClasses": [
+        "RA A",
+        "RA B"
+      ],
+      "targetSemester": 1,
+      "ayahCount": 3,
+      "orderIndex": 33,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/110.mp3"
+    },
+    {
+      "id": "mat-juz30-111",
+      "category": "JUZ_30",
+      "title": "QS. Al-Lahab",
+      "subtitle": "Surah ke-111 · 5 Ayat · سورة المسد",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ تَبَّتْ يَدَآ اَبِيْ لَهَبٍ وَّتَبَّ",
+      "transliteration": "Tabbat yadā abī lahabiw wa tabb (1)",
+      "translationOrGuide": "Target RA A & RA B. Perhatikan tasydid dan qalqalah akbar di akhir ayat 1.",
+      "targetClasses": [
+        "RA A",
+        "RA B"
+      ],
+      "targetSemester": 2,
+      "ayahCount": 5,
+      "orderIndex": 34,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/111.mp3"
+    },
+    {
+      "id": "mat-juz30-112",
+      "category": "JUZ_30",
+      "title": "QS. Al-Ikhlas",
+      "subtitle": "Surah ke-112 · 4 Ayat · سورة الإخلاص",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ قُلْ هُوَ اللّٰهُ اَحَدٌ ۝ اَللّٰهُ الصَّمَدُ",
+      "transliteration": "Qul huwallāhu aḥad (1) Allāhuṣ-ṣamad (2)",
+      "translationOrGuide": "Target RA A (Semester 1) & Murojaah seluruh jenjang. Latih qalqalah pada huruf dal.",
+      "targetClasses": [
+        "RA A",
+        "RA B",
+        "Kelas 1"
+      ],
+      "targetSemester": "BOTH",
+      "ayahCount": 4,
+      "orderIndex": 35,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/112.mp3"
+    },
+    {
+      "id": "mat-juz30-113",
+      "category": "JUZ_30",
+      "title": "QS. Al-Falaq",
+      "subtitle": "Surah ke-113 · 5 Ayat · سورة الفلق",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ قُلْ اَعُوْذُ بِرَبِّ الْفَلَقِ ۝ مِنْ شَرِّ مَا خَلَقَ",
+      "transliteration": "Qul a‘ūżu birabbil-falaq (1) Min syarri mā khalaq (2)",
+      "translationOrGuide": "Target RA A (Semester 2) & RA B. Perhatikan qalqalah qaf di akhir ayat.",
+      "targetClasses": [
+        "RA A",
+        "RA B",
+        "Kelas 1"
+      ],
+      "targetSemester": "BOTH",
+      "ayahCount": 5,
+      "orderIndex": 36,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/113.mp3"
+    },
+    {
+      "id": "mat-juz30-114",
+      "category": "JUZ_30",
+      "title": "QS. An-Nas",
+      "subtitle": "Surah ke-114 · 6 Ayat · سورة الناس",
+      "arabicText": "بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ ۝ قُلْ اَعُوْذُ بِرَبِّ النَّاسِ ۝ مَلِكِ النَّاسِ",
+      "transliteration": "Qul a‘ūżu birabbin-nās (1) Malikin-nās (2)",
+      "translationOrGuide": "Target RA A (Semester 1) & Murojaah harian sebelum tidur.",
+      "targetClasses": [
+        "RA A",
+        "RA B",
+        "Kelas 1"
+      ],
+      "targetSemester": "BOTH",
+      "ayahCount": 6,
+      "orderIndex": 37,
+      "audioUrl": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/114.mp3"
+    },
+    {
+      "id": "mat-doa-1",
+      "category": "DOA_HARIAN",
+      "title": "Doa Sebelum Makan",
+      "subtitle": "Doa Adab Harian",
+      "arabicText": "اَللّٰهُمَّ بَارِكْ لَنَا فِيْمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّارِ",
+      "transliteration": "Allāhumma bārik lanā fīmā razaqtanā wa qinā ‘ażāban-nār.",
+      "translationOrGuide": "Artinya: Ya Allah, berkahilah kami dalam rezeki yang telah Engkau berikan kepada kami dan peliharalah kami dari siksa api neraka. Dibaca sebelum makan sambil duduk dengan tangan kanan.",
+      "targetClasses": [
+        "RA A",
+        "RA B",
+        "Kelas 1"
+      ],
+      "targetSemester": "BOTH",
+      "orderIndex": 101
+    },
+    {
+      "id": "mat-doa-2",
+      "category": "DOA_HARIAN",
+      "title": "Doa Sesudah Makan",
+      "subtitle": "Doa Adab Harian",
+      "arabicText": "اَلْحَمْدُ لِلّٰهِ الَّذِيْ اَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مِنَ الْمُسْلِمِيْنَ",
+      "transliteration": "Alḥamdulillāhillażī aṭ‘amanā wa saqānā wa ja‘alanā minal-muslimīn.",
+      "translationOrGuide": "Artinya: Segala puji bagi Allah yang telah memberi kami makan dan minum serta menjadikan kami termasuk golongan orang-orang muslim.",
+      "targetClasses": [
+        "RA A",
+        "RA B",
+        "Kelas 1"
+      ],
+      "targetSemester": "BOTH",
+      "orderIndex": 102
+    },
+    {
+      "id": "mat-doa-3",
+      "category": "DOA_HARIAN",
+      "title": "Doa Sebelum Tidur",
+      "subtitle": "Doa Adab Harian",
+      "arabicText": "بِسْمِكَ اللّٰهُمَّ اَحْيَا وَبِسْمِكَ اَمُوْتُ",
+      "transliteration": "Bismikallāhumma aḥyā wa bismika amūt.",
+      "translationOrGuide": "Artinya: Dengan menyebut nama-Mu ya Allah aku hidup, dan dengan menyebut nama-Mu aku mati. Dibiasakan berwudhu dan miring ke kanan.",
+      "targetClasses": [
+        "RA A",
+        "RA B",
+        "Kelas 1"
+      ],
+      "targetSemester": "BOTH",
+      "orderIndex": 103
+    },
+    {
+      "id": "mat-doa-4",
+      "category": "DOA_HARIAN",
+      "title": "Doa Sesudah Tidur",
+      "subtitle": "Doa Adab Harian",
+      "arabicText": "اَلْحَمْدُ لِلّٰهِ الَّذِيْ اَحْيَانَا بَعْدَ مَا اَمَاتَنَا وَاِلَيْهِ النُّشُوْرُ",
+      "transliteration": "Alḥamdulillāhillażī aḥyānā ba‘da mā amātanā wa ilaihin-nusyūr.",
+      "translationOrGuide": "Artinya: Segala puji bagi Allah yang telah menghidupkan kami kembali setelah mematikan kami, dan hanya kepada-Nya kami kembali.",
+      "targetClasses": [
+        "RA A",
+        "RA B",
+        "Kelas 1"
+      ],
+      "targetSemester": "BOTH",
+      "orderIndex": 104
+    },
+    {
+      "id": "mat-doa-5",
+      "category": "DOA_HARIAN",
+      "title": "Doa Masuk Kamar Mandi",
+      "subtitle": "Doa Adab Bersuci",
+      "arabicText": "اَللّٰهُمَّ اِنِّيْ اَعُوْذُ بِكَ مِنَ الْخُبُثِ وَالْخَبَآئِثِ",
+      "transliteration": "Allāhumma innī a‘ūżu bika minal-khubuṡi wal-khabā’iṡ.",
+      "translationOrGuide": "Artinya: Ya Allah, sesungguhnya aku berlindung kepada-Mu dari godaan setan laki-laki dan setan perempuan. Masuk dengan kaki kiri terlebih dahulu.",
+      "targetClasses": [
+        "RA A",
+        "RA B",
+        "Kelas 1"
+      ],
+      "targetSemester": "BOTH",
+      "orderIndex": 105
+    },
+    {
+      "id": "mat-doa-6",
+      "category": "DOA_HARIAN",
+      "title": "Doa Keluar Kamar Mandi",
+      "subtitle": "Doa Adab Bersuci",
+      "arabicText": "غُفْرَانَكَ الْحَمْدُ لِلّٰهِ الَّذِيْ اَذْهَبَ عَنِّي الْاَذٰى وَعَافَانِيْ",
+      "transliteration": "Gufrānaka alḥamdulillāhillażī ażhaba ‘annil-ażā wa ‘āfānī.",
+      "translationOrGuide": "Artinya: Aku memohon ampunan-Mu. Segala puji bagi Allah yang telah menghilangkan penyakit dariku dan menyehatkanku. Keluar dengan kaki kanan.",
+      "targetClasses": [
+        "RA A",
+        "RA B",
+        "Kelas 1"
+      ],
+      "targetSemester": "BOTH",
+      "orderIndex": 106
+    },
+    {
+      "id": "mat-doa-7",
+      "category": "DOA_HARIAN",
+      "title": "Niat Puasa Ramadhan",
+      "subtitle": "Niat Ibadah Puasa",
+      "arabicText": "نَوَيْتُ صَوْمَ غَدٍ عَنْ اَدَاءِ فَرْضِ شَهْرِ رَمَضَانَ هٰذِهِ السَّنَةِ لِلّٰهِ تَعَالٰى",
+      "transliteration": "Nawaitu ṣauma gadin ‘an adā’i farḍi syahri ramaḍāna hāżihis-sanati lillāhi ta‘ālā.",
+      "translationOrGuide": "Artinya: Aku niat berpuasa esok hari untuk menunaikan kewajiban bulan Ramadhan tahun ini karena Allah Ta’ala.",
+      "targetClasses": [
+        "RA B",
+        "Kelas 1",
+        "Kelas 2",
+        "Kelas 3"
+      ],
+      "targetSemester": 2,
+      "orderIndex": 107
+    },
+    {
+      "id": "mat-doa-8",
+      "category": "DOA_HARIAN",
+      "title": "Doa Buka Puasa",
+      "subtitle": "Doa Ibadah Puasa",
+      "arabicText": "اَللّٰهُمَّ لَكَ صُمْتُ وَبِكَ اٰمَنْتُ وَعَلٰى رِزْقِكَ اَفْطَرْتُ بِرَحْمَتِكَ يَا اَرْحَمَ الرَّاحِمِيْنَ",
+      "transliteration": "Allāhumma laka ṣumtu wa bika āmantu wa ‘alā rizqika afṭartu biraḥmatika yā arḥamar-rāḥimīn.",
+      "translationOrGuide": "Artinya: Ya Allah, untuk-Mu aku berpuasa, kepada-Mu aku beriman, dan atas rezeki-Mu aku berbuka dengan rahmat-Mu wahai Tuhan Yang Maha Pengasih.",
+      "targetClasses": [
+        "RA A",
+        "RA B",
+        "Kelas 1",
+        "Kelas 2"
+      ],
+      "targetSemester": 2,
+      "orderIndex": 108
+    },
+    {
+      "id": "mat-doa-9",
+      "category": "DOA_HARIAN",
+      "title": "Niat Sholat Dhuha",
+      "subtitle": "Niat & Bacaan Sholat Sunnah",
+      "arabicText": "اُصَلِّيْ سُنَّةَ الضُّحٰى رَكْعَتَيْنِ لِلّٰهِ تَعَالٰى",
+      "transliteration": "Uṣallī sunnataḍ-ḍuḥā rak‘ataini lillāhi ta‘ālā.",
+      "translationOrGuide": "Artinya: Aku niat sholat sunnah Dhuha dua rakaat karena Allah Ta’ala. Dibaca dalam hati bersamaan takbiratul ihram.",
+      "targetClasses": [
+        "Kelas 1",
+        "Kelas 2",
+        "Kelas 3",
+        "Kelas 4"
+      ],
+      "targetSemester": 1,
+      "orderIndex": 109
+    },
+    {
+      "id": "mat-doa-10",
+      "category": "DOA_HARIAN",
+      "title": "Doa Sholat Dhuha",
+      "subtitle": "Doa Sholat Sunnah",
+      "arabicText": "اَللّٰهُمَّ اِنَّ الضُّحَآءَ ضُحَآؤُكَ وَالْبَهَآءَ بَهَآؤُكَ وَالْجَمَالَ جَمَالُكَ وَالْقُوَّةَ قُوَّتُكَ وَالْقُدْرَةَ قُدْرَتُكَ وَالْعِصْمَةَ عِصْمَتُكَ",
+      "transliteration": "Allāhumma innaḍ-ḍuḥā’a ḍuḥā’uka wal-bahā’a bahā’uka wal-jamāla jamāluka wal-quwwata quwwatuka wal-qudrata qudratuka wal-‘iṣmata ‘iṣmatuka...",
+      "translationOrGuide": "Dibaca rutin setelah pelaksanaan sholat Dhuha berjamaah di madrasah. Guru dapat melengkapi rekaman audio lantunan doa Dhuha.",
+      "targetClasses": [
+        "Kelas 2",
+        "Kelas 3",
+        "Kelas 4",
+        "Kelas 5",
+        "Kelas 6"
+      ],
+      "targetSemester": "BOTH",
+      "orderIndex": 110
+    },
+    {
+      "id": "mat-doa-11",
+      "category": "DOA_HARIAN",
+      "title": "Niat Sholat Fardhu (5 Waktu)",
+      "subtitle": "Niat Sholat Wajib",
+      "arabicText": "اُصَلِّيْ فَرْضَ الصُّبْحِ رَكْعَتَيْنِ مُسْتَقْبِلَ الْقِبْلَةِ اَدَاءً لِلّٰهِ تَعَالٰى",
+      "transliteration": "Subuh (2 rakaat) · Dzuhur (4 rakaat: اُصَلِّيْ فَرْضَ الظُّهْرِ) · Ashar (4 rakaat: الْعَصْرِ) · Maghrib (3 rakaat: الْمَغْرِبِ) · Isya (4 rakaat: الْعِشَاءِ)",
+      "translationOrGuide": "Murid menghafalkan niat sholat fardhu Subuh, Dzuhur, Ashar, Maghrib, dan Isya lengkap beserta jumlah rakaat dan posisi makmum/imam.",
+      "targetClasses": [
+        "RA B",
+        "Kelas 1",
+        "Kelas 2"
+      ],
+      "targetSemester": 1,
+      "orderIndex": 111
+    },
+    {
+      "id": "mat-doa-12",
+      "category": "DOA_HARIAN",
+      "title": "Niat Sholat Tarawih",
+      "subtitle": "Niat Sholat Sunnah Ramadhan",
+      "arabicText": "اُصَلِّيْ سُنَّةَ التَّرَاوِيْحِ رَكْعَتَيْنِ مُسْتَقْبِلَ الْقِبْلَةِ مَأْمُوْمًا لِلّٰهِ تَعَالٰى",
+      "transliteration": "Uṣallī sunnatat-tarāwīḥi rak‘ataini mustaqbilal-qiblati ma’mūman lillāhi ta‘ālā.",
+      "translationOrGuide": "Artinya: Aku niat sholat sunnah Tarawih dua rakaat menghadap kiblat sebagai makmum karena Allah Ta’ala.",
+      "targetClasses": [
+        "Kelas 2",
+        "Kelas 3",
+        "Kelas 4"
+      ],
+      "targetSemester": 2,
+      "orderIndex": 112
+    },
+    {
+      "id": "mat-doa-13",
+      "category": "DOA_HARIAN",
+      "title": "Niat Sholat Witir",
+      "subtitle": "Niat Sholat Sunnah Penutup",
+      "arabicText": "اُصَلِّيْ سُنَّةَ الْوِتْرِ ثَلَاثَ رَكَعَاتٍ مُسْتَقْبِلَ الْقِبْلَةِ مَأْمُوْمًا لِلّٰهِ تَعَالٰى",
+      "transliteration": "Uṣallī sunnatal-witri ṡalāṡa raka‘ātin mustaqbilal-qiblati ma’mūman lillāhi ta‘ālā.",
+      "translationOrGuide": "Artinya: Aku niat sholat sunnah Witir tiga rakaat (atau satu rakaat: رَكْعَةً) menghadap kiblat sebagai makmum karena Allah Ta’ala.",
+      "targetClasses": [
+        "Kelas 2",
+        "Kelas 3",
+        "Kelas 4"
+      ],
+      "targetSemester": 2,
+      "orderIndex": 113
+    },
+    {
+      "id": "mat-doa-14",
+      "category": "DOA_HARIAN",
+      "title": "Doa Iftitah",
+      "subtitle": "Bacaan Sholat",
+      "arabicText": "اَللّٰهُ اَكْبَرُ كَبِيْرًا وَالْحَمْدُ لِلّٰهِ كَثِيْرًا وَسُبْحَانَ اللّٰهِ بُكْرَةً وَّاَصِيْلًا",
+      "transliteration": "Allāhu akbaru kabīrā wal-ḥamdu lillāhi kaṡīrā wa subḥānallāhi bukrataw wa aṣīlā...",
+      "translationOrGuide": "Bacaan pembuka setelah takbiratul ihram pada rakaat pertama. Guru membimbing pelafalan makhraj secara bertahap.",
+      "targetClasses": [
+        "Kelas 1",
+        "Kelas 2",
+        "Kelas 3"
+      ],
+      "targetSemester": 1,
+      "orderIndex": 114
+    },
+    {
+      "id": "mat-doa-15",
+      "category": "DOA_HARIAN",
+      "title": "Tasyahud Awal",
+      "subtitle": "Bacaan Sholat",
+      "arabicText": "اَلتَّحِيَّاتُ الْمُبَارَكَاتُ الصَّلَوَاتُ الطَّيِّبَاتُ لِلّٰهِ السَّلَامُ عَلَيْكَ اَيُّهَا النَّبِيُّ وَرَحْمَةُ اللّٰهِ وَبَرَكَاتُهُ",
+      "transliteration": "At-taḥiyyātul-mubārakātuṣ-ṣalawātuṭ-ṭayyibātu lillāh, as-salāmu ‘alaika ayyuhan-nabiyyu wa raḥmatullāhi wa barakātuh...",
+      "translationOrGuide": "Dibaca saat duduk tasyahud awal hingga bacaan shalawat Nabi Muhammad SAW.",
+      "targetClasses": [
+        "Kelas 1",
+        "Kelas 2",
+        "Kelas 3"
+      ],
+      "targetSemester": 1,
+      "orderIndex": 115
+    },
+    {
+      "id": "mat-doa-16",
+      "category": "DOA_HARIAN",
+      "title": "Tasyahud Akhir",
+      "subtitle": "Bacaan Sholat",
+      "arabicText": "كَمَا صَلَّيْتَ عَلٰى سَيِّدِنَا اِبْرَاهِيْمَ وَعَلٰى اٰلِ سَيِّدِنَا اِبْرَاهِيْمَ وَبَارِكْ عَلٰى سَيِّدِنَا مُحَمَّدٍ",
+      "transliteration": "Melanjutkan Tasyahud Awal ditambah Shalawat Ibrahimiyah hingga Fil-‘ālamīna innaka ḥamīdum majīd.",
+      "translationOrGuide": "Dibaca pada duduk tasyahud akhir sebelum salam. Perhatikan ketertiban bacaan shalawat kepada Nabi Ibrahim AS dan Nabi Muhammad SAW.",
+      "targetClasses": [
+        "Kelas 2",
+        "Kelas 3",
+        "Kelas 4"
+      ],
+      "targetSemester": 2,
+      "orderIndex": 116
+    },
+    {
+      "id": "mat-doa-17",
+      "category": "DOA_HARIAN",
+      "title": "Doa Qunut",
+      "subtitle": "Bacaan Sholat Subuh",
+      "arabicText": "اَللّٰهُمَّ اهْدِنِيْ فِيْمَنْ هَدَيْتَ وَعَافِنِيْ فِيْمَنْ عَافَيْتَ وَتَوَلَّنِيْ فِيْمَنْ تَوَلَّيْتَ",
+      "transliteration": "Allāhummahdinī fīman hadait, wa ‘āfinī fīman ‘āfait, wa tawallanī fīman tawallait...",
+      "translationOrGuide": "Dibaca pada rakaat kedua sholat Subuh setelah i’tidal. Target hafalan lancar di MI Kelas 3–6.",
+      "targetClasses": [
+        "Kelas 3",
+        "Kelas 4",
+        "Kelas 5",
+        "Kelas 6"
+      ],
+      "targetSemester": "BOTH",
+      "orderIndex": 117
+    },
+    {
+      "id": "mat-doa-18",
+      "category": "DOA_HARIAN",
+      "title": "Dzikir dan Doa Setelah Sholat Fardhu",
+      "subtitle": "Wirid & Doa Harian",
+      "arabicText": "اَسْتَغْفِرُ اللّٰهَ الْعَظِيْمَ ۝ سُبْحَانَ اللّٰهِ ۝ اَلْحَمْدُ لِلّٰهِ ۝ اَللّٰهُ اَكْبَرُ",
+      "transliteration": "Istighfar 3x, Allāhumma antas-salām, Tasbih 33x, Tahmid 33x, Takbir 33x, dan doa keselamatan dunia akhirat.",
+      "translationOrGuide": "Pembiasaan dzikir dan doa bersama setelah sholat fardhu Dzuhur berjamaah di madrasah.",
+      "targetClasses": [
+        "Kelas 3",
+        "Kelas 4",
+        "Kelas 5",
+        "Kelas 6"
+      ],
+      "targetSemester": "BOTH",
+      "orderIndex": 118
+    }
+  ],
+  "dailyLogs": [
+    {
+      "id": "dl-1",
+      "studentId": "std-raa-1",
+      "teacherId": "tch-raa",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "day": "Senin",
+      "date": "2025-07-21",
+      "category": "JUZ_30",
+      "materialId": "mat-juz30-114",
+      "materialTitle": "QS. An-Nas",
+      "portionDetail": "Ayat 1–3 (Menirukan & Setoran)",
+      "logType": "SETORAN_BARU",
+      "score": 90,
+      "status": "LANCAR",
+      "notes": "Pelafalan sudah jelas dan bersemangat mengikuti irama."
+    },
+    {
+      "id": "dl-2",
+      "studentId": "std-raa-1",
+      "teacherId": "tch-raa",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "day": "Selasa",
+      "date": "2025-07-22",
+      "category": "JUZ_30",
+      "materialId": "mat-juz30-114",
+      "materialTitle": "QS. An-Nas",
+      "portionDetail": "Ayat 4–6 (Tuntas Surah)",
+      "logType": "SETORAN_BARU",
+      "score": 88,
+      "status": "LANCAR",
+      "notes": "Hafal ayat 1–6 secara berurutan dengan baik."
+    },
+    {
+      "id": "dl-3",
+      "studentId": "std-raa-1",
+      "teacherId": "tch-raa",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "day": "Rabu",
+      "date": "2025-07-23",
+      "category": "DOA_HARIAN",
+      "materialId": "mat-doa-1",
+      "materialTitle": "Doa Sebelum Makan",
+      "portionDetail": "Bacaan lengkap & arti singkat",
+      "logType": "SETORAN_BARU",
+      "score": 92,
+      "status": "LANCAR",
+      "notes": "Sangat lancar, sudah dipraktikkan sebelum makan bekal."
+    },
+    {
+      "id": "dl-4",
+      "studentId": "std-raa-1",
+      "teacherId": "tch-raa",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "day": "Kamis",
+      "date": "2025-07-24",
+      "category": "JUZ_30",
+      "materialId": "mat-juz30-112",
+      "materialTitle": "QS. Al-Ikhlas",
+      "portionDetail": "Ayat 1–4 (Murojaah)",
+      "logType": "MUROJAAH",
+      "score": 82,
+      "status": "MUROJAAH",
+      "notes": "Perlu diulang kembali panjang bacaan pada ayat ke-2."
+    },
+    {
+      "id": "dl-5",
+      "studentId": "std-mi1-1",
+      "teacherId": "tch-mi1",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "day": "Senin",
+      "date": "2025-07-21",
+      "category": "JUZ_30",
+      "materialId": "mat-juz30-107",
+      "materialTitle": "QS. Al-Ma'un",
+      "portionDetail": "Ayat 1–4",
+      "logType": "SETORAN_BARU",
+      "score": 91,
+      "status": "LANCAR",
+      "notes": "Makhraj huruf hamzah dan ‘ain tepat."
+    },
+    {
+      "id": "dl-6",
+      "studentId": "std-mi1-1",
+      "teacherId": "tch-mi1",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "day": "Selasa",
+      "date": "2025-07-22",
+      "category": "JUZ_30",
+      "materialId": "mat-juz30-107",
+      "materialTitle": "QS. Al-Ma'un",
+      "portionDetail": "Ayat 5–7",
+      "logType": "SETORAN_BARU",
+      "score": 87,
+      "status": "LANCAR",
+      "notes": "Lancar menyambung ayat 1–7."
+    },
+    {
+      "id": "dl-7",
+      "studentId": "std-mi1-1",
+      "teacherId": "tch-mi1",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "day": "Rabu",
+      "date": "2025-07-23",
+      "category": "DOA_HARIAN",
+      "materialId": "mat-doa-14",
+      "materialTitle": "Doa Iftitah",
+      "portionDetail": "Paruh pertama bacaan Iftitah",
+      "logType": "SETORAN_BARU",
+      "score": 79,
+      "status": "MUROJAAH",
+      "notes": "Masih perlu pendampingan di kalimat kabīrā."
+    },
+    {
+      "id": "dl-8",
+      "studentId": "std-mi1-1",
+      "teacherId": "tch-mi1",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "day": "Kamis",
+      "date": "2025-07-24",
+      "category": "DOA_HARIAN",
+      "materialId": "mat-doa-11",
+      "materialTitle": "Niat Sholat Fardhu (5 Waktu)",
+      "portionDetail": "Niat Subuh & Dzuhur",
+      "logType": "MUROJAAH",
+      "score": 94,
+      "status": "LANCAR",
+      "notes": "Hafal sangat baik dan tertib."
+    },
+    {
+      "id": "dl-9",
+      "studentId": "std-mi4-1",
+      "teacherId": "tch-mi4",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "day": "Senin",
+      "date": "2025-07-21",
+      "category": "JUZ_30",
+      "materialId": "mat-juz30-82",
+      "materialTitle": "QS. Al-Infithar",
+      "portionDetail": "Ayat 1–10",
+      "logType": "SETORAN_BARU",
+      "score": 93,
+      "status": "LANCAR",
+      "notes": "Tajwid ikhfa dan mad sangat baik."
+    },
+    {
+      "id": "dl-10",
+      "studentId": "std-mi4-1",
+      "teacherId": "tch-mi4",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "day": "Selasa",
+      "date": "2025-07-22",
+      "category": "JUZ_30",
+      "materialId": "mat-juz30-82",
+      "materialTitle": "QS. Al-Infithar",
+      "portionDetail": "Ayat 11–19",
+      "logType": "SETORAN_BARU",
+      "score": 90,
+      "status": "LANCAR",
+      "notes": "Tuntas Surah Al-Infithar dengan lancar."
+    },
+    {
+      "id": "dl-11",
+      "studentId": "std-mi4-1",
+      "teacherId": "tch-mi4",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "day": "Rabu",
+      "date": "2025-07-23",
+      "category": "DOA_HARIAN",
+      "materialId": "mat-doa-17",
+      "materialTitle": "Doa Qunut",
+      "portionDetail": "Doa Qunut lengkap",
+      "logType": "MUROJAAH",
+      "score": 89,
+      "status": "LANCAR",
+      "notes": "Lancar dan tartil."
+    },
+    {
+      "id": "dl-12",
+      "studentId": "std-mi4-1",
+      "teacherId": "tch-mi4",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "day": "Kamis",
+      "date": "2025-07-24",
+      "category": "JUZ_30",
+      "materialId": "mat-juz30-84",
+      "materialTitle": "QS. Al-Insyiqaq",
+      "portionDetail": "Ayat 1–8",
+      "logType": "SETORAN_BARU",
+      "score": 72,
+      "status": "BELUM",
+      "notes": "Ayat 6–8 masih tertukar, perlu diulang besok saat evaluasi Jum’at."
+    },
+    {
+      "id": "dl-13",
+      "studentId": "std-mi6-1",
+      "teacherId": "tch-mi6",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "day": "Senin",
+      "date": "2025-07-21",
+      "category": "JUZ_30",
+      "materialId": "mat-juz30-78",
+      "materialTitle": "QS. An-Naba'",
+      "portionDetail": "Ayat 1–20 (Murojaah Tahsin)",
+      "logType": "MUROJAAH",
+      "score": 95,
+      "status": "LANCAR",
+      "notes": "Sangat mutqin, ghunnah dan mad terjaga."
+    },
+    {
+      "id": "dl-14",
+      "studentId": "std-mi6-1",
+      "teacherId": "tch-mi6",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "day": "Selasa",
+      "date": "2025-07-22",
+      "category": "JUZ_30",
+      "materialId": "mat-juz30-78",
+      "materialTitle": "QS. An-Naba'",
+      "portionDetail": "Ayat 21–40 (Murojaah Tuntas)",
+      "logType": "MUROJAAH",
+      "score": 94,
+      "status": "LANCAR",
+      "notes": "Lulus tasmi’ 1 surah penuh."
+    },
+    {
+      "id": "dl-15",
+      "studentId": "std-mi6-1",
+      "teacherId": "tch-mi6",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "day": "Rabu",
+      "date": "2025-07-23",
+      "category": "DOA_HARIAN",
+      "materialId": "mat-doa-18",
+      "materialTitle": "Dzikir dan Doa Setelah Sholat Fardhu",
+      "portionDetail": "Susunan dzikir & doa lengkap",
+      "logType": "MUROJAAH",
+      "score": 93,
+      "status": "LANCAR",
+      "notes": "Siap menjadi pemandu dzikir kelas."
+    },
+    {
+      "id": "dl-16",
+      "studentId": "std-mi6-1",
+      "teacherId": "tch-mi6",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "day": "Kamis",
+      "date": "2025-07-24",
+      "category": "JUZ_30",
+      "materialId": "mat-juz30-80",
+      "materialTitle": "QS. 'Abasa",
+      "portionDetail": "Ayat 1–20",
+      "logType": "SETORAN_BARU",
+      "score": 90,
+      "status": "LANCAR",
+      "notes": "Lancar dan tartil."
+    },
+    {
+      "id": "dl-17",
+      "studentId": "std-rab-1",
+      "teacherId": "tch-rab",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "day": "Senin",
+      "date": "2025-07-21",
+      "category": "JUZ_30",
+      "materialId": "mat-juz30-105",
+      "materialTitle": "QS. Al-Fil",
+      "portionDetail": "Ayat 1–5",
+      "logType": "SETORAN_BARU",
+      "score": 88,
+      "status": "LANCAR",
+      "notes": "Antusias dan lancar."
+    },
+    {
+      "id": "dl-18",
+      "studentId": "std-mi2-1",
+      "teacherId": "tch-mi2",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "day": "Selasa",
+      "date": "2025-07-22",
+      "category": "JUZ_30",
+      "materialId": "mat-juz30-94",
+      "materialTitle": "QS. Al-Insyirah",
+      "portionDetail": "Ayat 1–8",
+      "logType": "SETORAN_BARU",
+      "score": 91,
+      "status": "LANCAR",
+      "notes": "Bacaan tartil, qalqalah terjaga."
+    },
+    {
+      "id": "dl-19",
+      "studentId": "std-mi3-1",
+      "teacherId": "tch-mi3",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "day": "Rabu",
+      "date": "2025-07-23",
+      "category": "JUZ_30",
+      "materialId": "mat-juz30-86",
+      "materialTitle": "QS. Ath-Thariq",
+      "portionDetail": "Ayat 1–10",
+      "logType": "SETORAN_BARU",
+      "score": 84,
+      "status": "MUROJAAH",
+      "notes": "Perlu murojaah di rumah pada ayat 7–10."
+    },
+    {
+      "id": "dl-20",
+      "studentId": "std-mi5-1",
+      "teacherId": "tch-mi5",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "day": "Kamis",
+      "date": "2025-07-24",
+      "category": "JUZ_30",
+      "materialId": "mat-juz30-78",
+      "materialTitle": "QS. An-Naba'",
+      "portionDetail": "Ayat 1–15",
+      "logType": "SETORAN_BARU",
+      "score": 89,
+      "status": "LANCAR",
+      "notes": "Irama dan waqaf baik."
+    }
+  ],
+  "weeklyEvaluations": [
+    {
+      "id": "we-1",
+      "studentId": "std-raa-1",
+      "teacherId": "tch-raa",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "fridayDate": "2025-07-25",
+      "summaryMaterial": "QS. An-Nas (1–6), QS. Al-Ikhlas, Doa Sebelum Makan",
+      "fluencyScore": 88,
+      "tajwidOrAdabScore": 90,
+      "finalScore": 89,
+      "status": "LANCAR",
+      "teacherNotes": "Capaian pekan 1 sangat baik. Mohon murojaah ringan QS. Al-Ikhlas bersama orang tua di rumah."
+    },
+    {
+      "id": "we-2",
+      "studentId": "std-mi1-1",
+      "teacherId": "tch-mi1",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "fridayDate": "2025-07-25",
+      "summaryMaterial": "QS. Al-Ma'un (1–7), Doa Iftitah, Niat Sholat Subuh & Dzuhur",
+      "fluencyScore": 88,
+      "tajwidOrAdabScore": 88,
+      "finalScore": 88,
+      "status": "LANCAR",
+      "teacherNotes": "Setoran surat Al-Ma’un tuntas. Doa Iftitah dilanjutkan pekan depan."
+    },
+    {
+      "id": "we-3",
+      "studentId": "std-mi4-1",
+      "teacherId": "tch-mi4",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "fridayDate": "2025-07-25",
+      "summaryMaterial": "QS. Al-Infithar (Tuntas), Doa Qunut, QS. Al-Insyiqaq (1–8)",
+      "fluencyScore": 84,
+      "tajwidOrAdabScore": 88,
+      "finalScore": 86,
+      "status": "MUROJAAH",
+      "teacherNotes": "QS. Al-Infithar sudah sangat lancar, namun QS. Al-Insyiqaq ayat 6–8 perlu murojaah intensif."
+    },
+    {
+      "id": "we-4",
+      "studentId": "std-mi6-1",
+      "teacherId": "tch-mi6",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "weekNumber": 1,
+      "fridayDate": "2025-07-25",
+      "summaryMaterial": "QS. An-Naba' (1–40), QS. 'Abasa (1–20), Dzikir Setelah Sholat",
+      "fluencyScore": 94,
+      "tajwidOrAdabScore": 93,
+      "finalScore": 94,
+      "status": "LANCAR",
+      "teacherNotes": "Mumtaz! Hafalan sangat terjaga dan menjadi teladan teman sekelas."
+    }
+  ],
+  "monthlyEvaluations": [
+    {
+      "id": "me-1",
+      "studentId": "std-raa-1",
+      "teacherId": "tch-raa",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "monthIndex": 1,
+      "monthName": "Juli",
+      "juz30ProgressText": "Tuntas QS. An-Nas & QS. Al-Ikhlas; Persiapan QS. Al-Kautsar",
+      "doaProgressText": "Tuntas Doa Sebelum & Sesudah Makan, Doa Sebelum Tidur",
+      "averageScore": 90,
+      "status": "LANCAR",
+      "predicate": "Mumtaz (A)",
+      "summaryNotes": "Ananda Aisyah menunjukkan semangat belajar tinggi, cepat menangkap bacaan, dan sopan saat setoran."
+    },
+    {
+      "id": "me-2",
+      "studentId": "std-rab-1",
+      "teacherId": "tch-rab",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "monthIndex": 1,
+      "monthName": "Juli",
+      "juz30ProgressText": "Tuntas QS. Al-Fil & QS. Al-Kautsar; Murojaah QS. An-Nas–Al-Ikhlas",
+      "doaProgressText": "Tuntas Doa Masuk/Keluar Kamar Mandi & Niat Sholat Fardhu",
+      "averageScore": 87,
+      "status": "LANCAR",
+      "predicate": "Jayyid Jiddan (B+)",
+      "summaryNotes": "Perkembangan sangat baik, terus pertahankan murojaah bersama orang tua."
+    },
+    {
+      "id": "me-3",
+      "studentId": "std-mi1-1",
+      "teacherId": "tch-mi1",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "monthIndex": 1,
+      "monthName": "Juli",
+      "juz30ProgressText": "Tuntas QS. Al-Ma'un & QS. Al-Fil; Murojaah QS. At-Takatsur",
+      "doaProgressText": "Tuntas Niat Sholat Fardhu & Doa Iftitah (Sebagian)",
+      "averageScore": 88,
+      "status": "LANCAR",
+      "predicate": "Jayyid Jiddan (B+)",
+      "summaryNotes": "Bacaan tartil dan makhraj mulai rapi. Lanjutkan pembiasaan doa iftitah."
+    },
+    {
+      "id": "me-4",
+      "studentId": "std-mi4-1",
+      "teacherId": "tch-mi4",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "monthIndex": 1,
+      "monthName": "Juli",
+      "juz30ProgressText": "Tuntas QS. Al-Infithar; Proses QS. Al-Insyiqaq (1–12)",
+      "doaProgressText": "Tuntas Doa Qunut & Doa Sholat Dhuha",
+      "averageScore": 86,
+      "status": "MUROJAAH",
+      "predicate": "Jayyid Jiddan (B+)",
+      "summaryNotes": "Perlu konsistensi murojaah pada ayat-ayat baru QS. Al-Insyiqaq."
+    },
+    {
+      "id": "me-5",
+      "studentId": "std-mi6-1",
+      "teacherId": "tch-mi6",
+      "academicYearId": "ay-2025-2026",
+      "semester": 1,
+      "monthIndex": 1,
+      "monthName": "Juli",
+      "juz30ProgressText": "Tuntas QS. An-Naba' (Tasmi'); Proses QS. 'Abasa (1–30)",
+      "doaProgressText": "Tuntas Dzikir & Doa Setelah Sholat Fardhu + Doa Qunut",
+      "averageScore": 94,
+      "status": "LANCAR",
+      "predicate": "Mumtaz (A)",
+      "summaryNotes": "Sangat baik dalam menjaga hafalan Juz 30 serta adab tilawah."
+    }
+  ]
+}
